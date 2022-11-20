@@ -30,14 +30,17 @@
         </LinearLayout>
 
         <Button
-            app:backgroundTint="@null"
-            android:id="@+id/button"
+            android:id="@+id/stopAlcohol"
             android:layout_width="264dp"
             android:layout_height="276dp"
             android:layout_gravity="center"
             android:background="@drawable/roundedbutton"
+            android:onClick="stopAlcohol"
             android:text="금주 시작하기"
             android:textColor="@color/black"
+            android:textOn="금주 중 입니다!"
+            android:textOff="금주 시작하기"
+            app:backgroundTint="@null"
             app:iconTint="#9C2222" />
 
     </LinearLayout>
